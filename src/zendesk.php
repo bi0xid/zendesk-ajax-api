@@ -75,7 +75,7 @@ class zendeskMTS {
 
 	/**
 	 * [isRequesterVerified description]
-	 * @return boolean [Get if the customer is a verified requester]
+	 * @return [boolean] [Get if the customer is a verified requester]
 	 */
 	public function isRequesterVerified() {
 		$customer = $this->getCustomerInfoByEmail();
@@ -84,7 +84,6 @@ class zendeskMTS {
 
 	/**
 	 * [updateTicket description]
-	 * @return [type] [description]
 	 */
 	public function updateTicket() {
 		$ticketId      = $_GET['ticket_id'];
